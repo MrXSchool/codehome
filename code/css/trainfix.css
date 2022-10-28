@@ -1,0 +1,156 @@
+
+body{
+    border: 2px solid #000;
+    margin: 0.5px 0.5px 0.5px 0.5px;
+    height: 1200px;
+}
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 40px;
+    background-color: lightblue;
+}
+header a{
+    margin: 10px;
+}
+
+nav{
+    height: 60px;
+    border: 1px solid gray;
+    text-align: center;
+    position: relative;
+}
+
+nav a{
+    margin: 5px;
+    padding: 10px;
+    color: lightskyblue;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(255, 0, 0);
+}
+#giohang{
+    float: right;
+    margin-right: 10px;
+}
+
+#lienhe{
+    float: left;
+    margin-left: 50px;
+}
+
+#thongtin1{
+    float: left;
+    width: 50%;
+    height: 500px;
+    text-align: right;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 20px;
+    top: 20px
+    
+}
+#thongtin1 h2{
+    color: deepskyblue;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#thongtin1 p{
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+}
+
+#thongtin2{
+    float: right;
+    width: 45%;
+    height: 500px;
+    text-align: left;
+    margin: 10px;
+    position: absolute;
+
+}
+#thongtin2 h2{
+    color: deepskyblue;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#thongtin2 p{
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+div#anhsanpham1{
+    float: right;
+    width: 45%;
+    height: 500px;
+}
+div#anhsanpham2{
+    float: left;
+    width: 50%;
+    height: 500px;
+    margin: 1px;
+}
+#sanpham1{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    height: 500px;
+    width: 600px;
+    box-shadow: gray -10px 10px 5px;
+}
+#sanpham2{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 500px;
+    width: 600px;
+    box-shadow: gray -10px 10px 5px;
+}
+
+#chitiet1{
+    height: 40px;
+    width: 100px;
+    border: 1px solid deepskyblue;
+    margin-left: 50%;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: gray -10px 10px 5px;
+    
+}
+
+#chitiet1 a{
+    color: deepskyblue;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#chitiet2{
+    height: 40px;
+    width: 100px;
+    border: 1px solid deepskyblue;
+    margin-left: 50%;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: gray -10px 10px 5px;
+    
+}
+
+#chitiet2 a{
+    color: deepskyblue;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}
